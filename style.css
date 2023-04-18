@@ -2,8 +2,11 @@ body {
     font-family: sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
     background-color: whitesmoke;
+    height: 100%;
+}
+html {
+    height: 100%;
 }
 
 .omne,
@@ -41,14 +44,18 @@ header {
     font-weight: bold;
     margin: 0;
     padding: 0;  
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .uvod {
     background-image: url(obr/uvodni1.jpeg);
-    padding: 200px 30px 320px 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
 }
 
 .menu li {
@@ -83,6 +90,7 @@ header {
     text-align: center;
     color: white;
     text-shadow: 0 3px 10px black; 
+    padding-top: 20%;
 }
 
 a {
