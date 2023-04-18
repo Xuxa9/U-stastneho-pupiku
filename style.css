@@ -134,8 +134,9 @@ h3 {
 }
 
 .fotogalerie img {
-    width: 30%;
+    width: 32.5%;
     border: 2px solid black;
+    float: left;
 }
 .fotogalerie h2 {
     color: whitesmoke;
