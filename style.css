@@ -45,8 +45,9 @@ header {
     margin: 0;
     padding: 0;  
     position: fixed;
-    top: 0;
     width: 100%;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .uvod {
@@ -58,22 +59,14 @@ header {
     height: 100%;
 }
 
-.menu li {
-    display: inline-block;
-    text-align: center;
-}
-.menu ul {
-    margin: 0;
-}
-
 .menu a {
     display: inline-block;
     text-align: center;
-    padding: 10px 30px;
-    margin-top: 30px;
+    padding: 2vw 5vw;
     text-decoration: none;
     color: whitesmoke;
 }
+
 .menu a:hover,
 .menu a:focus,
 .menu a:active,
@@ -99,9 +92,11 @@ a {
 }
 
 .menu img {
-  padding: 10px 20px 10px 10%; 
+  padding: 10px 10px 10px 10%; 
   float: left;
+  width: 7vw;
 }
+
 .omne img,
 .recepty img {
     box-shadow: 0 3px 5px gray;
@@ -145,4 +140,11 @@ h3 {
 .fotodan {
 float: right;
 margin: 50px 10% 0 0;
+}
+
+@media only screen and (max-width: 1000px) {
+   .uvod h1 {
+    font-size: 50px;
+   }
+
 }
