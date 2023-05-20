@@ -151,16 +151,11 @@ margin: 23px 10% 0 0;
     font-size: 45px;
     padding-top: 35%;
    }
-   .uvod {
-    background-image: url(obr/uvodni1.jpeg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-}
+
 .uvod {
     background-image: url(obr/uvodni1\ mobil.jpeg);
     background-position: bottom;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
