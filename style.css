@@ -158,6 +158,14 @@ margin: 23px 10% 0 0;
     background-repeat: no-repeat;
     height: 100%;
 }
+.uvod {
+    background-image: url(obr/uvodni1\ mobil.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
 
 .fotodan,
 .menu img {
