@@ -34,24 +34,20 @@ header {
     font-weight: bold;
     margin: 0;
     padding: 0;  
-}
-
-.menu li {
-    display: inline-block;
+    position: fixed;
+    width: 100%;
+    white-space: nowrap;
     text-align: center;
-}
-.menu ul {
-    margin: 0;
 }
 
 .menu a {
     display: inline-block;
     text-align: center;
-    padding: 10px 30px;
-    margin-top: 30px;
+    padding: 2vw 5vw;
     text-decoration: none;
     color: whitesmoke;
 }
+
 .menu a:hover,
 .menu a:focus,
 .menu a:active,
