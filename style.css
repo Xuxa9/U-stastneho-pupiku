@@ -149,7 +149,7 @@ margin: 23px 10% 0 0;
    }
     .uvod h1 {
     font-size: 45px;
-    padding-top: 30%;
+    padding-top: 35%;
    }
    .uvod {
     background-image: url(obr/uvodni1.jpeg);
@@ -161,7 +161,6 @@ margin: 23px 10% 0 0;
 .uvod {
     background-image: url(obr/uvodni1\ mobil.jpeg);
     background-position: bottom;
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
