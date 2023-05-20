@@ -139,7 +139,7 @@ h3 {
 
 .fotodan {
 float: right;
-margin: 50px 10% 0 0;
+margin: 23px 10% 0 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -160,14 +160,11 @@ margin: 50px 10% 0 0;
     background-repeat: no-repeat;
     height: 100%;
 }
-.footer img {
-    width: 150px;
-}
 
 .fotodan {
-    display: inline-block;
-
-    width: 60px;
+    float: right;
+    margin: 172px 10% 0 0;
+    width: 50px;
 
     }
 }
