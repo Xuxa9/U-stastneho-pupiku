@@ -46,7 +46,6 @@ header {
     padding: 0;  
     position: fixed;
     width: 100%;
-    
     text-align: center;
 }
 
@@ -62,7 +61,7 @@ header {
 .menu a {
     display: inline-block;
     text-align: center;
-    padding: 2vw 5vw;
+    padding: 25px 2%;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -92,9 +91,8 @@ a {
 }
 
 .menu img {
-  padding: 10px 10px 10px 10%; 
+  padding: 7px 25px; 
   float: left;
-  width: 7vw;
 }
 
 .omne img,
@@ -142,7 +140,7 @@ float: right;
 margin: 23px 10% 0 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 850px) {
    .menu a {
     padding: 2vw;
    }
@@ -155,16 +153,14 @@ margin: 23px 10% 0 0;
    }
    .uvod {
     background-image: url(obr/uvodni1.jpeg);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
 
-.fotodan {
-    float: right;
-    margin: 172px 10% 0 0;
-    width: 50px;
-
+.fotodan,
+.menu img {
+    display: none;  
     }
 }
