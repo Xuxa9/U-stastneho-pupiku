@@ -156,5 +156,11 @@ margin: 50px 10% 0 0;
     font-size: 45px;
     padding-top: 30%;
    }
-
+   .uvod {
+    background-image: url(obr/uvodni1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
 }
