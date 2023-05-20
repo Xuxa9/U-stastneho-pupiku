@@ -143,8 +143,12 @@ margin: 50px 10% 0 0;
 }
 
 @media only screen and (max-width: 1000px) {
-   .uvod h1 {
+   .menu {
+    position: relative;
+   }
+    .uvod h1 {
     font-size: 50px;
+    padding-top: 30%;
    }
 
 }
